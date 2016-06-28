@@ -18,6 +18,7 @@ ENV.libraryList = [
     { code: 'knockoutjs34-1', name: 'Knockout.js 3.4', desc:'Components for items; model for items', path: './knockoutjs3.4/v1.html' },    
     { code: 'knockoutjs34-2', name: 'Knockout.js 3.4', desc:'Components for list and items (nolazy rendering in chrome); model for items', path: './knockoutjs3.4/v2.html' },    
     { code: 'knockoutjs34-3', name: 'Knockout.js 3.4', desc:'Components for list and items (nolazy rendering in chrome); model for items; complex item structure', path: './knockoutjs3.4/v3.html' },    
+    { code: 'knockoutjs34-4', name: 'Knockout.js 3.4', desc:'Components for list and items (nolazy rendering in chrome); model for items; complex item structure; defer updates', path: './knockoutjs3.4/v4.html' },    
 
     { code: 'jin2_view', name: '$jin2_view', path: './jin2_view/index.html' },
     { code: 'mithril', name: 'Mithril', path: './mithril/index.html' },
