@@ -7,6 +7,6 @@
     <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-    <!-- ko component: {name:'list', params:{items:items} } --><!-- /ko -->
+    <ul data-bind="foreach: items"><!-- ko component: {name:'item', params:$data } --><!-- /ko --></ul>
 </body>
 </html>

@@ -49,7 +49,7 @@ $(function() {
 });
 
 ENV.append({
-    code: 'knockoutjs3-2',
+    code: 'knockoutjs34-1',
     clear: koApp.clear,
     fill: koApp.fill,
     update: koApp.update,

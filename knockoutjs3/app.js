@@ -37,9 +37,6 @@ function KoApp() {
 
 
 
-ko.components.register('list', {
-    template: '<ul data-bind="foreach: items"><!-- ko component: {name:\'item\', params:$data } --><!-- /ko --></ul>'
-});
 
 ko.components.register('item', {
     template: '<li>jj: <span data-bind="text: val"></span></li>'

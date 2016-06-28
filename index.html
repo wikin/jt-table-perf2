@@ -16,18 +16,18 @@
         <div class="row">
             <table class="table table-bordered">
                 <tr>
-                    <th>Name</th>
-                    <th>Fill time</th>
-                    <th>Update time</th>
-                    <th>Insert time</th>
+                    <th width="64%">Name</th>
+                    <th width="12%" nowrap class="text-right">Fill time</th>
+                    <th width="12%" nowrap class="text-right">Update time</th>
+                    <th width="12%" nowrap class="text-right">Insert time</th>
                 </tr>
                 <tr al-repeat="it in list">
                     <td>
-                        <a href="{{it.path}}">{{it.name}}</a>
+                        <a href="{{it.path}}">{{it.name}}<small ng-if="it.desc" class="text-muted"><br>{{it.desc}}</small></a>
                     </td>
-                    <td>{{getTime('fill', it.code)}}</td>
-                    <td>{{getTime('update', it.code)}}</td>
-                    <td>{{getTime('insert', it.code)}}</td>
+                    <td nowrap class="text-right">{{getTime('fill', it.code)}}</td>
+                    <td nowrap class="text-right">{{getTime('update', it.code)}}</td>
+                    <td nowrap class="text-right">{{getTime('insert', it.code)}}</td>
                 </tr>
 
             </table>

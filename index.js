@@ -5,7 +5,7 @@ alight.f$.ready(function() {
 
     scope.getTime = function(kind, code) {
         var r = localStorage.getItem(kind + ':' + code)
-        if(r) return r + 'ms'
+        if(r) return r.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,") + ' ms'
         return ''
     };
 
