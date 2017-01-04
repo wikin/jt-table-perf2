@@ -20,6 +20,12 @@ ENV.libraryList = [
     { code: 'knockoutjs34-3', name: 'Knockout.js 3.4', desc:'Components for list and items (nolazy rendering in chrome); model for items; complex item structure', path: './knockoutjs3.4/v3.html' },    
     { code: 'knockoutjs34-4', name: 'Knockout.js 3.4', desc:'Components for list and items (nolazy rendering in chrome); model for items; complex item structure; defer updates', path: './knockoutjs3.4/v4.html' },    
 
+    { code: 'knockoutjs341', name: 'Knockout.js 3.41', desc:'Components for items; item is object', path: './knockoutjs3.41/index.html' },    
+    { code: 'knockoutjs341-1', name: 'Knockout.js 3.41', desc:'Components for items; model for items', path: './knockoutjs3.41/v1.html' },    
+    { code: 'knockoutjs341-2', name: 'Knockout.js 3.41', desc:'Components for list and items (nolazy rendering in chrome); model for items', path: './knockoutjs3.41/v2.html' },    
+    { code: 'knockoutjs341-3', name: 'Knockout.js 3.41', desc:'Components for list and items (nolazy rendering in chrome); model for items; complex item structure', path: './knockoutjs3.41/v3.html' },    
+    { code: 'knockoutjs341-4', name: 'Knockout.js 3.41', desc:'Components for list and items (nolazy rendering in chrome); model for items; complex item structure; defer updates', path: './knockoutjs3.41/v4.html' },    
+
     { code: 'jin2_view', name: '$jin2_view', path: './jin2_view/index.html' },
     { code: 'mithril', name: 'Mithril', path: './mithril/index.html' },
     { code: 'matreshka', name: 'Matreshka.js', path: './matreshka/index.html' },

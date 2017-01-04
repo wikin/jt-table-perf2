@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../lib/knockout-3.4.1.js"></script>
+    <script type="text/javascript" src="../lib/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../ENV.js"></script>
+    <script type="text/javascript" src="app1.js"></script>
+</head>
+<body>
+    <ul data-bind="foreach: items"><!-- ko component: {name:'item', params:$data } --><!-- /ko --></ul>
+</body>
+</html>
